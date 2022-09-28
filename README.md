@@ -6,17 +6,12 @@ The contract has been deployed to Goeril testnet at Address: [0x03792bF679C7E2BF
 
 ## Description
 
-Players can enter the lottery by sneding a minimum amonut of ETH to the contract. The contract picks a random winner at predefined intervals from all the players who entered the lottery. To obtain randomness Chainlink [VRFConrdinatorV2](https://docs.chain.link/docs/vrf/v2/introduction/) is used. 
-
+Players can enter the lottery by sending a minimum amonut of ETH to the contract. The contract picks a random winner at predefined intervals from all the players who entered the lottery. To obtain randomness Chainlink [VRFConrdinatorV2](https://docs.chain.link/docs/vrf/v2/introduction/) is used. 
 
 
 ## Highlights
 
-1. Contract uses Orcale to select a random winner from the list of entered players - (VRF)
+1. Contract uses Orcale to select a random winner from the list of entered players.
 2. Hardhat deployment scripts are used to dynamically deploy to local network/testnet.
 3. Script also verify's deployed contract in etherscan blockexplorer. 
 4. Unit tests added with good code coverage and staging test written to do run tests in testnet.
-
-
-
-
