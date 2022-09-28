@@ -6,7 +6,7 @@ The contract has been deployed to Goeril testnet at Address: [0x03792bF679C7E2BF
 
 ## Description
 
-Players can enter the lottery by sending a minimum amonut of ETH to the contract. The contract picks a random winner at predefined intervals from all the players who entered the lottery. To obtain randomness Chainlink [VRFConrdinatorV2](https://docs.chain.link/docs/vrf/v2/introduction/) is used. For triggering/checking the interval for selecting a random winne Chainlink [Keepers](https://docs.chain.link/docs/chainlink-keepers/introduction/) is utilized.
+Players can enter the lottery by sending a minimum amonut of ETH to the contract. The contract picks a random winner at predefined intervals from all the players who entered the lottery. To obtain randomness Chainlink [VRFConrdinatorV2](https://docs.chain.link/docs/vrf/v2/introduction/) is used. For triggering contract at specified time interval to select a random winner Chainlink [Keepers](https://docs.chain.link/docs/chainlink-keepers/introduction/) is utilized.
 
 
 ## Highlights
