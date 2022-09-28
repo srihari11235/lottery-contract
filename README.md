@@ -14,4 +14,4 @@ Players can enter the lottery by sending a minimum amonut of ETH to the contract
 1. Contract uses Orcale to select a random winner from the list of entered players.
 2. Hardhat deployment scripts are used to dynamically deploy to local network/testnet.
 3. Script also verify's deployed contract in etherscan blockexplorer. 
-4. Unit tests added with good code coverage and staging test written to do run tests in testnet.
+4. Unit tests added with good code coverage and staging test written to run tests in testnet.
